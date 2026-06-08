@@ -1,0 +1,58 @@
+# Artefactos de herramientas de desarrollo (Claude, Gemini, etc.)
+.artifacts/
+.gemini/
+.claude/
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local (contienen rutas específicas de la máquina)
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.iws
+*.ipr
+
+# Directorios de build generados por Gradle
+/build/
+app/build/
+**/build/
+
+# Gradle wrapper generado
+.gradle/
+gradle-wrapper.jar
+
+# Archivos de captura y profiling
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Archivos de keystore (nunca subir al repositorio)
+*.jks
+*.keystore
+keystore.properties
+
+# Firebase / Google Services (contiene API keys, agregar al repo solo si no es sensible)
+# google-services.json
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Targets compilados de Kotlin/Java
+*.class
+*.jar
+*.aar

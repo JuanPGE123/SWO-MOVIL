@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Tema base y estable para la aplicación. 
+        Hereda de un tema de AppCompat sin barra de acción, que es un punto de partida seguro.
+    -->
+    <style name="Theme.SWO" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- No se necesitan atributos adicionales aquí para la corrección -->
+    </style>
+</resources>
